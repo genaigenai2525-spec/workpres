@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #13A0CC;
+  --color-primary-dark: #0E7A9C;
+  --color-primary-light: #E0F4FA;
+  --color-secondary: #F7A334;
+  --color-secondary-hover: #D98923;
+  --color-text: #333333;
+  --color-text-light: #666666;
+  --color-background: #FFFFFF;
+
+  --font-sans: "Hiragino Kaku Gothic ProN", "Noto Sans JP", YuGothic, "Yu Gothic", Meiryo, sans-serif;
+}
+
+@utility container-custom {
+  @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+@utility btn-primary {
+  @apply bg-primary hover:bg-primary-dark text-white font-bold py-3 px-8 rounded-full transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5;
+}
+
+@utility btn-secondary {
+  @apply bg-secondary hover:bg-secondary-hover text-white font-bold py-4 px-10 rounded-full transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 text-lg;
+}
+
+@layer base {
+  body {
+    @apply text-text font-sans bg-slate-50 antialiased;
+  }
+}
