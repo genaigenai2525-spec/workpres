@@ -13,12 +13,28 @@ export default function ProblemSection() {
             <div className="container-custom">
                 {/* Intro */}
                 <div className="text-center max-w-3xl mx-auto mb-16">
-                    <h2 className="text-3xl font-bold text-primary mb-6">業務圧縮くんとは何か</h2>
-                    <p className="text-lg text-text leading-relaxed">
-                        固定費を下げながら、その業務を丸ごと外注でき、<br className="hidden md:block" />
-                        自社で回す工数から解放されるのです！<br />
-                        業務圧縮くんは、「<span className="font-bold text-secondary">業務を圧縮・経費を削減する</span>」ことに特化したBPOサービスです。
-                    </p>
+                    <h2 className="text-3xl font-bold text-primary mb-10">業務圧縮くんとは何か</h2>
+                    <div className="text-lg text-text leading-relaxed space-y-8 font-medium">
+                        <p>
+                            あなたの会社の業務を、<br />
+                            AI×アウトソーシングで<br />
+                            <span className="text-primary font-bold">圧倒的に「圧縮」するサービス</span>です。
+                        </p>
+                        <p>
+                            これまで「外注すると高い」「自社でやるしかない」<br />
+                            と諦めていた定型業務や事務作業を、<br />
+                            AIを活用することで従来のBPOよりも<br />
+                            <span className="border-b-2 border-secondary/50">はるかに安く、正確に引き受けます。</span>
+                        </p>
+                        <p>
+                            単なる人貸しではなく、<br />
+                            「業務そのものをテクノロジーで効率化し、<br />
+                            最小限のコストで運用する」
+                        </p>
+                        <p className="text-2xl font-bold text-primary pt-4">
+                            それが業務圧縮くんです。
+                        </p>
+                    </div>
                 </div>
 
                 {/* Problems Grid */}
